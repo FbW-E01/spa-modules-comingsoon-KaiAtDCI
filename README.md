@@ -2,7 +2,7 @@
 
 ### Coming Soon Page
 
-Using the [Boilerplate](./template.md) provided, create a coming soon webpage. The page should show a count down of days, hours, minutes, and seconds. 
+Using the [Boilerplate](./template.md) provided, create anpm run serve coming soon webpage. The page should show a count down of days, hours, minutes, and seconds. 
 
   - make sure you use a class that accepts:
     - selector

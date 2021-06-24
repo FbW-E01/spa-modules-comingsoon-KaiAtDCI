@@ -1,13 +1,19 @@
 {
-  "name": "",
+  "name": "name",
   "version": "0.1.0",
   "description": "",
   "main": "index.js",
+  "watch": {
+    "build": {
+      "patterns": ["src"]
+    }
+  },
   "scripts": {
     "start": "webpack-dev-server --mode development",
     "build": "webpack --mode production",
     "deploy": "npm run build && gh-pages -d dist",
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "watch": "npm-watch"
   },
   "browserslist": [
     "> 1%",
@@ -37,5 +43,8 @@
     "webpack-cli": "^3.2.3",
     "webpack-dev-server": "^3.2.1"
   },
-  "dependencies": {}
+  "dependencies": {
+    "moment": "^2.29.1",
+    "npm-watch": "^0.10.0"
+  }
 }

@@ -1,13 +1,59 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
-    <title></title>
+    <meta charset="utf-8">
+    <title>Countdown</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@500&family=Roboto+Mono:wght@100;200;300&family=Roboto:wght@300&display=swap" rel="stylesheet">
   </head>
 
   <body>
-    <main class="container"></main>
+    <div class="page">
+      <div class="container">
+        <div class="countdown">
+          <div class="countdown-wrapper">
+            <div class="countdown-row">
+              <span class="countdown-number" id="days">??</span>
+              <span class="countdown-unit">days</span>
+            </div>
+            <div class="countdown-row">
+              <span class="countdown-number" id="hours">??</span>
+              <span class="countdown-unit">hours</span>
+            </div>
+            <div class="countdown-row">
+              <span class="countdown-number" id="minutes">??</span>
+              <span class="countdown-unit">minutes</span>
+            </div>
+            <div class="countdown-row">
+              <span class="countdown-number" id="seconds">??</span>
+              <span class="countdown-unit">seconds</span>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="container">
+        <div class="event">
+          <div class="event-wrapper">
+            <main>
+              <div id="event-heading">
+                ???
+              </div>
+              <div id="event-description">
+                ???
+              </div>
+            </main>
+            <footer>
+              <i class="fa fa-envelope" aria-hidden="true"></i>
+              <i class="fa fa-facebook" aria-hidden="true"></i>
+              <i class="fa fa-whatsapp" aria-hidden="true"></i>
+            </footer>
+          </div>
+        </div>
+      </div>
+    </div>
   </body>
 </html>
+
+
